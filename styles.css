@@ -1,0 +1,49 @@
+/* Background: mobile */
+@media (max-width: 480px) {
+    body {
+        background-image: url(assets/bg-main-mobile.png);
+    }
+}
+/* Background: tablet */
+@media (min-width: 481px) and (max-width: 1024px) {
+    body {
+        background-image: url(assets/bg-main-tablet.png);
+    }
+}
+/* Background: desktop */
+@media (min-width: 1025px) {
+    body {
+	    background-image: url(assets/bg-main-desktop.png);
+   }
+}
+
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+* {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+
+h1 {
+    color: #191826;
+    font-size: 88px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+/* CTA styling */
+.cta {
+    background-color: #FA7453;
+}
+.cta-title {
+    color: #FCFAF9;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+}
+.cta-body {
+    color: #FCFAF9;
+    font-size: 16px;
+    line-height: 26px;
+}
